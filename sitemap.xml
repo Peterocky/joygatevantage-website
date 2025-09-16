@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://http://www.sitems.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://joygatevantage.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://joygatevantage.com/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://joygatevantage.com/properties.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://joygatevantage.com/contact.html</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
