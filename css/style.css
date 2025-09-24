@@ -68,21 +68,6 @@ header {
   cursor: pointer;
 }
 
-.nav-links.active {
-    display: flex; /* show menu when JS adds "active" */
-    /* when active */
-  flex-direction: column;
-  background: white;
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  width: 200px;
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-
-  }
-
 /* Mobile styles */
 @media (max-width: 768px) {
   .nav-links {
@@ -101,8 +86,6 @@ header {
 
   .nav-links.active {
     display: flex; /* show menu when JS adds "active" */
-    /* when active */
-  display: flex;
   flex-direction: column;
   background: white;
   position: absolute;
@@ -113,6 +96,10 @@ header {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
 
+  }
+
+  .menu-toggle {
+    display: block;
   }
 }
 
@@ -748,7 +735,6 @@ footer {
 
 }
 }
-
 
 .team {
   padding: 40px 20px;
