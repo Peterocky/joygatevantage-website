@@ -1,7 +1,11 @@
-function toggleMenu() {
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.querySelector(".menu-toggle");
   const nav = document.getElementById("navLinks");
-  nav.classList.toggle("active");
-}
+
+  toggleButton.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+});
 
 
 
